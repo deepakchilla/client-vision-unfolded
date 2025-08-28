@@ -59,7 +59,7 @@ export function QuickActions() {
             className="h-auto p-4 justify-start text-left hover:bg-accent/50 transition-all duration-200 group"
           >
             <div className="flex items-center gap-4 w-full">
-              <div className={`w-10 h-10 rounded-lg ${action.color} flex items-center justify-center text-white`}>
+              <div className={`w-10 h-10 rounded-sm ${action.color} flex items-center justify-center text-white`}>
                 <action.icon className="w-5 h-5" />
               </div>
               <div className="flex-1">

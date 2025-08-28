@@ -32,8 +32,8 @@ export function Navbar({ onToggleSidebar }: NavbarProps) {
           </Button>
           
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <Globe className="w-5 h-5 text-white" />
+            <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
+              <Globe className="w-5 h-5 text-primary-foreground" />
             </div>
             <div className="hidden sm:block">
               <h1 className="text-lg font-semibold text-foreground">Export Concern Service</h1>
