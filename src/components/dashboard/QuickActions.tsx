@@ -59,8 +59,8 @@ export function QuickActions() {
             className="h-auto p-4 justify-start text-left hover:bg-accent/50 transition-all duration-200 group"
           >
             <div className="flex items-center gap-4 w-full">
-              <div className={`w-10 h-10 rounded-sm ${action.color} flex items-center justify-center text-white`}>
-                <action.icon className="w-5 h-5" />
+              <div className="w-14 h-14 rounded-sm bg-primary/10 flex items-center justify-center">
+                <action.icon className="w-8 h-8 text-primary" />
               </div>
               <div className="flex-1">
                 <p className="font-medium text-foreground group-hover:text-accent-foreground">
